@@ -1,19 +1,33 @@
-# Ajolotito Hambriento (notificaciones locales + TDD)
+# Ajolotito Hambriento
 
-Código del manual "Ajolotito Hambriento" (UTNG).
-
-```powershell
-flutter create .      # genera android/ios/windows (no pisa lib/ ni pubspec.yaml)
-flutter pub get
-flutter test          # 7 archivos de pruebas
-```
-
-`flutter test` NO necesita teléfono ni la configuración de Android/iOS: todo el
-comportamiento está detrás de un puerto falso. Para correr la app en un teléfono
-sigue las Rondas 1 y 12 del manual (AndroidManifest, desugaring, AppDelegate).
-
-Capturas en orden ROJO -> VERDE:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\capturas_ajolotito.ps1
-```
+<img width="1302" height="822" alt="Captura de pantalla 2026-11-18 214742" src="https://github.com/user-attachments/assets/4dd393c5-7703-4667-90f5-ed0102aa077e" />
+<img width="997" height="145" alt="Captura de pantalla 2026-11-18 214733" src="https://github.com/user-attachments/assets/e1c86273-3e76-4045-94b5-e62a0a2eea24" />
+<img width="1282" height="772" alt="Captura de pantalla 2026-11-18 214726" src="https://github.com/user-attachments/assets/d4dd3217-6ef7-4813-9240-eea917b39300" />
+<img width="947" height="147" alt="Captura de pantalla 2026-11-18 214715" src="https://github.com/user-attachments/assets/10403fc8-6594-4711-94f9-9badb8ad3549" />
+<img width="1307" height="677" alt="Captura de pantalla 2026-11-18 214707" src="https://github.com/user-attachments/assets/ec0b3a8c-e7b1-445c-8dd1-09ffd5b23718" />
+<img width="937" height="300" alt="Captura de pantalla 2026-11-18 214656" src="https://github.com/user-attachments/assets/831b9ff3-29a2-4752-bbc4-e7b1da6ae109" />
+<img width="1235" height="572" alt="Captura de pantalla 2026-11-18 214649" src="https://github.com/user-attachments/assets/9595adbe-5994-44a4-b134-188d207cf3b4" />
+<img width="962" height="305" alt="Captura de pantalla 2026-11-18 214638" src="https://github.com/user-attachments/assets/53b43d1f-c306-47cb-960d-f756b67f7719" />
+<img width="1301" height="812" alt="Captura de pantalla 2026-11-18 214631" src="https://github.com/user-attachments/assets/a2732c73-b655-4c8a-a7e3-cddb8861aaa8" />
+<img width="1302" height="415" alt="Captura de pantalla 2026-11-18 214621" src="https://github.com/user-attachments/assets/14b25120-0261-4b5a-91de-c1730e9529c2" />
+<img width="1302" height="686" alt="Captura de pantalla 2026-11-18 214613" src="https://github.com/user-attachments/assets/c4bf797e-4f21-4d1e-addc-21d1dac11e14" />
+<img width="1298" height="412" alt="Captura de pantalla 2026-11-18 214603" src="https://github.com/user-attachments/assets/687b5cbb-4983-476e-9259-2e247c930a8e" />
+<img width="1307" height="836" alt="Captura de pantalla 2026-11-18 214553" src="https://github.com/user-attachments/assets/fc5ca9f7-0598-447c-b3bb-a986535312d1" />
+<img width="940" height="212" alt="Captura de pantalla 2026-11-18 214545" src="https://github.com/user-attachments/assets/ec0358bc-0d49-49f7-b566-b0f0d810be74" />
+<img width="1291" height="467" alt="Captura de pantalla 2026-11-18 214538" src="https://github.com/user-attachments/assets/b944f5fa-44c1-4792-9554-6e70b3354d37" />
+<img width="935" height="225" alt="Captura de pantalla 2026-11-18 214531" src="https://github.com/user-attachments/assets/b54a5e50-d65b-4cca-b038-0513115a5155" />
+<img width="1303" height="830" alt="Captura de pantalla 2026-11-18 214521" src="https://github.com/user-attachments/assets/84a02999-336a-4bf4-88f5-722e3bf1f276" />
+<img width="1133" height="376" alt="Captura de pantalla 2026-11-18 214509" src="https://github.com/user-attachments/assets/94cbf428-acfb-4470-b5c1-93436d2d6cb5" />
+<img width="1311" height="831" alt="Captura de pantalla 2026-11-18 214502" src="https://github.com/user-attachments/assets/fd48195a-8fe6-4a17-b892-a225bd708560" />
+<img width="1041" height="370" alt="Captura de pantalla 2026-11-18 214454" src="https://github.com/user-attachments/assets/d4d58821-ba6a-4954-bf64-4122db177ebf" />
+<img width="1293" height="810" alt="Captura de pantalla 2026-11-18 214447" src="https://github.com/user-attachments/assets/80c510c8-7dd9-4f0a-8cc6-7023fb82454f" />
+<img width="1121" height="347" alt="Captura de pantalla 2026-11-18 214440" src="https://github.com/user-attachments/assets/8be53bf2-3585-4589-a577-ed157876861f" />
+<img width="1287" height="843" alt="Captura de pantalla 2026-11-18 214433" src="https://github.com/user-attachments/assets/bcfd74d5-6d9e-4939-b885-6ac6f26133cd" />
+<img width="1066" height="347" alt="Captura de pantalla 2026-11-18 214425" src="https://github.com/user-attachments/assets/5d6cf476-aa34-49c7-bef1-c0649a7a2056" />
+<img width="1307" height="827" alt="Captura de pantalla 2026-11-18 214417" src="https://github.com/user-attachments/assets/3b1a5dfd-6292-4dc7-8f8b-762d09fddf71" />
+<img width="1058" height="342" alt="Captura de pantalla 2026-11-18 214404" src="https://github.com/user-attachments/assets/662d6d52-c562-4c48-9586-f316e7a2cfc4" />
+<img width="1296" height="810" alt="Captura de pantalla 2026-11-18 214355" src="https://github.com/user-attachments/assets/3c8e19f7-7f36-4654-a986-4581493c348d" />
+<img width="1031" height="435" alt="Captura de pantalla 2026-11-18 214342" src="https://github.com/user-attachments/assets/94ca3d4f-71ae-4d8d-9104-4e9284b23b21" />
+<img width="1303" height="687" alt="Captura de pantalla 2026-11-18 214333" src="https://github.com/user-attachments/assets/81fd6d8f-3cfd-4bb5-9073-1a625a6e6272" />
+<img width="1030" height="430" alt="Captura de pantalla 2026-11-18 214321" src="https://github.com/user-attachments/assets/c47cea41-d346-4d8a-94f9-6a07f28bd80c" />
+<img width="1298" height="802" alt="Captura de pantalla 2026-11-18 214308" src="https://github.com/user-attachments/assets/d7330942-502b-45f1-861d-7f8700c3c75f" />
